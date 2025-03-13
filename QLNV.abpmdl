@@ -1,0 +1,105 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.0.5",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "QLNV.Application": {
+      "path": "src/QLNV.Application/QLNV.Application.abppkg",
+      "folder": "src"
+    },
+    "QLNV.Application.Tests": {
+      "path": "test/QLNV.Application.Tests/QLNV.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "QLNV.Domain.Shared": {
+      "path": "src/QLNV.Domain.Shared/QLNV.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "QLNV.Application.Contracts": {
+      "path": "src/QLNV.Application.Contracts/QLNV.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "QLNV.HttpApi": {
+      "path": "src/QLNV.HttpApi/QLNV.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "QLNV.HttpApi.Client": {
+      "path": "src/QLNV.HttpApi.Client/QLNV.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "QLNV.Web": {
+      "path": "src/QLNV.Web/QLNV.Web.abppkg",
+      "folder": "src"
+    },
+    "QLNV.Web.Tests": {
+      "path": "test/QLNV.Web.Tests/QLNV.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "QLNV.EntityFrameworkCore.Tests": {
+      "path": "test/QLNV.EntityFrameworkCore.Tests/QLNV.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "QLNV.EntityFrameworkCore": {
+      "path": "src/QLNV.EntityFrameworkCore/QLNV.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "QLNV.TestBase": {
+      "path": "test/QLNV.TestBase/QLNV.TestBase.abppkg",
+      "folder": "test"
+    },
+    "QLNV.Domain.Tests": {
+      "path": "test/QLNV.Domain.Tests/QLNV.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "QLNV.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/QLNV.HttpApi.Client.ConsoleTestApp/QLNV.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "QLNV.DbMigrator": {
+      "path": "src/QLNV.DbMigrator/QLNV.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "QLNV.Domain": {
+      "path": "src/QLNV.Domain/QLNV.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
