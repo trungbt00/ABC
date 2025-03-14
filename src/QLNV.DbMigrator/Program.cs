@@ -36,4 +36,5 @@ class Program
             {
                 services.AddHostedService<DbMigratorHostedService>();
             });
+
 }
